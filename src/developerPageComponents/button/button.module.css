@@ -1,0 +1,15 @@
+.button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 134.8%;
+    letter-spacing: 0.055em;
+    color: #F9F9F9;
+    outline: none;
+    margin-top: 36px;
+    background: linear-gradient(255.89deg, #F45A2D 7.21%, #C348EE 124.25%);
+    border-radius: 100px;
+    text-align: center;
+    padding: 20px;
+    min-width: 250px;
+}

@@ -1,0 +1,29 @@
+.topicsItem {
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.topicsButton {
+    background: #F4F4F4;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+@media (max-width: 340px) {
+    .topicsItem {
+        font-size: 12px;
+    }
+    .topicsItem {
+        height: 65px;
+    }
+    .topicsButton {
+        display: flex;
+        align-items: center;
+        height: 65px;
+    }
+}

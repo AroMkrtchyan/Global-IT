@@ -1,0 +1,62 @@
+.learnGLOBALITItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px;
+    max-width: 300px;
+}
+.iconBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191223;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+.iconBlock > span {
+    font-size: 19px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #DA5194;
+}
+.title {
+    margin-top: 11px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 134.8%;
+    letter-spacing: 0.055em;
+    color: #DA5194;
+}
+.text {
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 134.8%;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #ECECEC;
+}
+
+@media (max-width: 340px) {
+    .iconBlock {
+        width: 150px;
+        height: 150px;
+        padding: 20px;
+    }
+    .learnGLOBALITItem  {
+        padding: 20px;
+        margin-top: 25px;
+    }
+    .title {
+        font-size: 15px;
+    }
+    .text {
+        font-size: 13px;
+    }
+}

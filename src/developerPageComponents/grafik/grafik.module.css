@@ -1,0 +1,71 @@
+.grafik {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #0B0316;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.text {
+    max-width: 55%;
+}
+.num {
+    background: -webkit-linear-gradient(#C348EE, #F45A2E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 134.8%;
+    letter-spacing: 0.055em;
+    margin-right: 30px;
+}
+.text > div {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.text > div > div > h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 134.8%;
+    letter-spacing: 0.055em;
+    color: #ECECEC;
+}
+.text > div > div > span {
+    font-size: 18px;
+    line-height: 134.8%;
+    letter-spacing: 0.055em;
+    color: #ECECEC;
+}
+.text  > p {
+    font-size: 18px;
+    line-height: 184.8%;
+    letter-spacing: 0.055em;
+    color: #ECECEC;
+    margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+    .text {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 650px) {
+    .num {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 340px) {
+    .grafik{
+        padding-bottom: 50px;
+    }
+    .num {
+        font-size: 35px;
+    }
+    .image {
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,21 @@
+.whatLearn {
+    background-color: #0B0316;
+}
+.whatLearn > h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 134.8%;
+    letter-spacing: 0.055em;
+    color: #ECECEC;
+}
+
+@media (max-width: 340px) {
+    .whatLearn {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .whatLearn > h1 {
+        font-size: 20px;
+    }
+}

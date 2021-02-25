@@ -1,0 +1,23 @@
+.aboutProgramItem {
+    display: flex;
+    align-items: center;
+}
+.aboutProgramItem > img {
+    margin-right: 25px;
+}
+.aboutProgramItem > p {
+    font-size: 14px;
+    line-height: 134.8%;
+    letter-spacing: 0.055em;
+    color: rgba(18, 18, 18, 0.7);
+}
+
+
+@media (max-width: 340px) {
+    .aboutProgramItem > p {
+        font-size: 11px;
+    }
+    .aboutProgramItem > img {
+        margin-right: 10px;
+    }
+}

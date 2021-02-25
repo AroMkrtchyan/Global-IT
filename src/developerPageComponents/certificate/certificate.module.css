@@ -1,0 +1,53 @@
+.certificate {
+    background: #EDEDED;
+    padding-top: 70px ;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image {
+    max-width: 50%;
+    margin-right: 50px;
+}
+.image > img {
+    width: 100%;
+}
+.text {
+    max-width: 40%;
+}
+.text > h1 > span{
+    color: #740099;
+}
+.text > p  {
+    font-size: 18px;
+    line-height: 163.8%;
+    letter-spacing: 0.055em;
+    color: #0B0316;
+    margin-top: 25px;
+}
+
+
+
+@media (max-width: 650px) {
+    .certificate {
+        padding-top: 30px ;
+        padding-bottom: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text {
+        max-width: 80%;
+    }
+    .text > h1 {
+        font-size: 30px;
+    }
+    .image > img {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .image {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}

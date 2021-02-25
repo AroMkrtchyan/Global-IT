@@ -1,0 +1,156 @@
+
+.registration {
+    background: #0B0316;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.title > h1{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 134.8%;
+    letter-spacing: 0.055em;
+    color: #ECECEC;
+    text-align: center;
+}
+.title > p {
+    font-size: 18px;
+    line-height: 163.8%;
+    letter-spacing: 0.055em;
+    color: #ECECEC;
+    text-align: center;
+}
+.title > p > span {
+    color: #B74ED9;
+}
+
+.sectionWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ECECEC;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.version {
+
+}
+.version > p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 134.8%;
+    letter-spacing: 0.055em;
+    color: #ECECEC;
+}
+.version > p >span {
+    color: #B74ED9;
+}
+.version > div {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    min-height: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+.version > div > p {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.version > div > p > span {
+    margin-right: 10px;
+}
+.first > p{
+    width: 50% !important;
+}
+.version > div:not(:first-child) > p {
+    width: 33%;
+}
+.version > div > p:not(:last-child) {
+    border-right: 1px solid #FFFFFF;
+}
+.prices {
+    padding: 20px;
+}
+.prices > p:first-child {
+    font-size: 16px;
+    margin-top: 15px;
+}
+.prices > p:last-child > span {
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-top: 15px;
+}
+.prices > p:last-child > del {
+    color: grey;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.priceYear {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #140F1C;
+    border-radius: 0 0 20px 20px;
+}
+.priceYear > p {
+    color: #B74ED9;
+}
+.priceYear > p > span {
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 0.055em;
+}
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 650px) {
+    .title > h1{
+        font-size: 30px;
+    }
+    .title > p {
+        font-size: 16px;
+    }
+    .version > p {
+        font-size: 16px;
+    }
+    .prices > p:last-child > span {
+        font-size: 30px;
+    }
+    .prices > p:last-child > del {
+        font-size: 22px;
+    }
+    .priceYear > p > span {
+        font-size: 30px;
+    }
+    .sectionWrapper {
+        font-size: 16px;
+    }
+    .version > div {
+        flex-direction: column;
+    }
+    .version > div > p:not(:last-child) {
+        border-right: none;
+    }
+    .version > div > p {
+        width: 100% !important;
+        margin-left: 15px;
+        justify-content: flex-start;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .title > h1{
+        font-size: 24px;
+    }
+
+}
